@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Imbue:wght@500&display=swap');
+.todo{
+    background-color: rgba(45,55,70,0.8);
+    width: 500px;
+    height: 100%;
+    margin: 0 auto;
+    text-align: center;
+    z-index: 100;
+    border-radius: 10px;
+
+}
+@media screen and (max-width: 500px){
+    .todo{
+        width: 300px;
+        height: 100%;
+        margin: 0 auto; 
+    }
+}
+.todo-h2{
+    color: white;
+    padding-top: 10px;
+    font-family: 'Imbue', serif;
+    font-size: 35px;
+    word-spacing: 5px;
+    letter-spacing: 2px;
+}
+input{
+    border-radius: 6px;
+    border: none;
+    padding: 8px;
+    width: 200px;
+    outline: none;
+}
+.tasks{
+    margin-top: 20px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.taskBtn{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 25px;
+    margin-bottom: 5px;
+}
+button{
+    color: white;
+    font-size: 15px;
+    background-color: rgba(0,0,0,0.5);
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 7px;
+    border-radius: 3px;
+    letter-spacing: 1px;
+}
+.tasklogo{
+    font-size: 28px;
+    color: rgb(233, 233, 61);
+}
+.noTask{
+    background-color: transparent;
+    font-size: 18px;
+    color: rgb(242, 246, 248);
+    width: 200px;
+    border-radius: 5px;
+    padding: 5px;
+    box-shadow: 0 0 8px rgb(77, 196, 243);
+    color:rgb(252, 109, 168) ;
+    font-family: 'Yusei Magic', sans-serif;
+    letter-spacing: 2px;
+}
+.tasklistss{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
